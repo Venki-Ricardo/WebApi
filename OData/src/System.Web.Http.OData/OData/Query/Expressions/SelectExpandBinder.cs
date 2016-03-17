@@ -285,7 +285,7 @@ namespace System.Web.Http.OData.Query.Expressions
                     }
                 }
 
-                includedProperties.Add(propertyExpression);
+                //includedProperties.Add(propertyExpression);
             }
 
             foreach (IEdmStructuralProperty propertyToInclude in propertiesToInclude)
